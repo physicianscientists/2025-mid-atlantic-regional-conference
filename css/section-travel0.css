@@ -49,6 +49,10 @@
 
 /* Google Maps Info */
 
+.maps-title {
+  font-size: 30px;
+}
+
 .travel-maps-div {
   display: flex;
   align-items: center;

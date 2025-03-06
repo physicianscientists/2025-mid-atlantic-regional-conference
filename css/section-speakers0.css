@@ -8,7 +8,7 @@
   padding-top: 20px;
   padding-bottom: 40px;
   margin-top: 0;
-  background-color: rgb(153, 0, 0);
+  background-color: rgb(001,031,091);
 }
 
 .speakers-title {
@@ -59,9 +59,9 @@
 }
 
 .description-button:hover {
-  background-color: black;
+  background-color: rgb(153,000,000);
   color: white;
-  transition: background-color 0.1s, color 0.1s;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .modal {
@@ -78,8 +78,9 @@
 }
 
 .modal-content {
-  background-color: rgb(107, 0, 13);
+  background-color: rgb(001,031,091);
   margin: 10% auto; /* 10% from the top and centered */
+  border-radius: 20px;
   padding: 20px;
   width: 80%; /* Could be more or less, depending on screen size */
   max-width: 600px;
@@ -90,6 +91,7 @@
   margin-bottom: 8px;
   object-fit: cover;
   width: 100%;
+  border-radius: 20px;
 }
 
 .modal-profile-name {
@@ -117,7 +119,7 @@
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: rgb(153,000,000);
     text-decoration: none;
     cursor: pointer;
 }
